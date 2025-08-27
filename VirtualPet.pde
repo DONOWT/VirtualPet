@@ -2,8 +2,6 @@
 void setup(){
   background(0,0,0);
   size (800, 800);
-}
-void draw(){
   noStroke(); 
   float num = random(5);
   if (num <= 1) {
@@ -58,4 +56,6 @@ void draw(){
       System.out.print("VERBA IMPRUDENS!!");
   }
 }
-
+void draw(){
+ //something here
+}
